@@ -31,10 +31,10 @@
 # print('Oká ' + nome + '! Prazer em te conhecer!')
 
 # # desafio 2 ------------------------------
-# dia = input('Dia = ')
-# mes = input('Mês = ')
-# ano = input('Ano = ')
-# print('Você nasceu no dia ' + dia + ' de ' + mes + ' de ' + ano + '. Correto?')
+dia = input('Dia = ')
+mes = input('Mês = ')
+ano = input('Ano = ')
+print('Você nasceu no dia ' + dia + ' de ' + mes + ' de ' + ano + '. Correto?')
 
 # desafio 3 ------------------------------
 n1 = int(input('Primeiro número: '))
