@@ -31,26 +31,43 @@
 # print('Oká ' + nome + '! Prazer em te conhecer!')
 
 # # desafio 2 ------------------------------
-dia = input('Dia = ')
-mes = input('Mês = ')
-ano = input('Ano = ')
-print('Você nasceu no dia ' + dia + ' de ' + mes + ' de ' + ano + '. Correto?')
+# dia = input('Dia = ')
+# mes = input('Mês = ')
+# ano = input('Ano = ')
+# print('Você nasceu no dia ' + dia + ' de ' + mes + ' de ' + ano + '. Correto?')
 
-# desafio 3 ------------------------------
-n1 = int(input('Primeiro número: '))
-n2 = int(input('Segundo número: '))
-print(f'A soma entre {n1} e {n2} é = {n1 + n2}')
-# print('A soma é ', (n1 + n2))
+# # desafio 3 ------------------------------
+# n1 = int(input('Primeiro número: '))
+# n2 = int(input('Segundo número: '))
+# print(f'A soma entre {n1} e {n2} é = {n1 + n2}')
+# # print('A soma é ', (n1 + n2))
 
-# desafio 4
-info = input('Digite algo: ')
-print(type(info))
+# # desafio 4
+# info = input('Digite algo: ')
+# print(type(info))
 
-if info.isalnum():
-    print(f'{info} é alpha ou numérico')
-    if info.isupper():
-        print(f'{info} está todo em maiusculo')
-    else:
-        print(f'{info} está todo em minusculo')
-else:
-    print(f'{info} não é alpha nem numérico')
+# if info.isalnum():
+#     print(f'{info} é alpha ou numérico')
+#     if info.isupper():
+#         print(f'{info} está todo em maiusculo')
+#     else:
+#         print(f'{info} está todo em minusculo')
+# else:
+#     print(f'{info} não é alpha nem numérico')
+
+# fase 7 - operador aritiméticas
+# + adição
+# - subtração
+# * multiplicação
+# / divisão
+# ** potência
+# // divisão inteira
+# % resto da divisão
+
+print(f'Soma: {5+2}')
+print(f'Subtração: {5-2}')
+print(f'Multiplicação: {5*2}')
+print(f'Divisão: {5/2}')
+print(f'Potência: {5**2}')
+print(f'Divisão inteira: {5//2}')
+print(f'Resto da divisão: {5%2}')
