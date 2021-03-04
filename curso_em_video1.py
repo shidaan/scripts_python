@@ -65,23 +65,26 @@
 # % resto da divisão
 # ordem de precedência - 1º (), 2º **, 3º * / // % e 4º + -
 
-print(f'Soma: {5 + 2}', end = ' ')  # end = ' ' reomve a quebra de linha
-print(f'Subtração: {5 - 2}', end = ' ')
-print(f'Multiplicação: {5 * 2}', end = ' ')
-print(f'Divisão: {5 / 2:.2f}', end = ' ')
-print(f'Potência: {5 ** 2}', end = ' ')
-print(f'Divisão inteira: {5 // 2}', end = ' ')
-print(f'Resto da divisão: {5 % 2}', end = ' ')
+# print(f'Soma: {5 + 2}', end = ' ')  # end = ' ' reomve a quebra de linha
+# print(f'Subtração: {5 - 2}', end = ' ')
+# print(f'Multiplicação: {5 * 2}', end = ' ')
+# print(f'Divisão: {5 / 2:.2f}', end = ' ')
+# print(f'Potência: {5 ** 2}', end = ' ')
+# print(f'Divisão inteira: {5 // 2}', end = ' ')
+# print(f'Resto da divisão: {5 % 2}', end = ' ')
 
-print(5 + 3 * 2)
-print(3 * 5 + 4 ** 2)
-print(3 * (5 + 4) ** 2)
+# print(5 + 3 * 2)
+# print(3 * 5 + 4 ** 2)
+# print(3 * (5 + 4) ** 2)
 
-print(pow(4,3)) # pow = potência
-print('='*20)
-# formatação do print
-nome = 'Daniel'
-print(f'{nome:=^30}')
-print(f'!{nome:^30}!')
-print(f'!{nome:>30}!')
-print(f'!{nome:<30}!')
+# print(pow(4,3)) # pow = potência
+# print('='*20)
+# # formatação do print
+# nome = 'Daniel'
+# print(f'{nome:=^30}')
+# print(f'!{nome:^30}!')
+# print(f'!{nome:>30}!')
+# print(f'!{nome:<30}!')
+
+# aula 8 
+
