@@ -1,9 +1,9 @@
 # desafio 21 -- tocar um arquivo mp3
 
-import pygame
+from pygame import mixer
 
-pygame.init()
-pygame.mixer.music.load('mp3/exercicio21.mp3')
-pygame.mixer.music.play()
+mixer.init()
+mixer.music.load('mp3/exercicio21.mp3')
+mixer.music.play()
 # pygame.event.wait()
 x = input('Digite algo para parar a música')
