@@ -77,3 +77,8 @@ import math
 # # desafio 13 -- ler um salário e dar 15% de aumento
 # s = float(input('Qual seu salário?: '))
 # print(f'Seu salário de R$ {s:.2f} subiu para R$ {s + (s * 0.15):.2f}')
+
+nome = input('Nome: ')
+
+a = nome.split(' ')
+
